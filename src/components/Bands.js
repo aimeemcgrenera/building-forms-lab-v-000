@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 
 class Bands extends Component {
@@ -16,3 +17,18 @@ class Bands extends Component {
 };
 
 export default Bands;
+=======
+import React, { Component } from 'react';
+
+class Bands extends Component {
+  render(){
+    return (
+      <div>
+        <li>{this.props.text}</li>
+      </div>
+    );
+  }
+};
+
+export default Bands;
+>>>>>>> 48400058ab68820bc598ea9c32aa9f979707d1e2
